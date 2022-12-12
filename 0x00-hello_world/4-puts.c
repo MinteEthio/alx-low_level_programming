@@ -1,5 +1,7 @@
 #include<stdio.h> /* header file */
-int main(void) /*function */
+int main(void) /*
+function 
+*/
 {
 char Cstr[] = "\"Programming is like building a multilingual puzzle";
 /*
