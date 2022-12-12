@@ -1,9 +1,8 @@
 #include<stdio.h> /* header file */
 
-int main() /*function */
+int main(void) /*function */
 {
-  char Cstr[]="Programming is like building a multilingual puzzle\n"; /*string initialation*/
-
-  puts(Cstr); /*writing the string to stdout */
-  return 0;
+char Cstr[]= "Programming is like building a multilingual puzzle"; /*string initialation*/
+puts(Cstr); /*writing the string to stdout */
+return 0;
 }
