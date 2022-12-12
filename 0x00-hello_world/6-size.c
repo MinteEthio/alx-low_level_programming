@@ -1,4 +1,4 @@
-#include <iostream.h>
+#include <stdio.h>
 int main (void)
 {
 	prinf("Size of a char: %d bytes \n",sizeof(char));
