@@ -1,6 +1,8 @@
 #include<stdio.h>
-/*
-* header file
+/**
+*main - Entry point
+*
+* Return: Always end 0 (Success)
 */
 int main(void)
 /*
