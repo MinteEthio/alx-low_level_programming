@@ -15,7 +15,7 @@ char Cstr[] = "\"Programming is like building a multilingual puzzle";
 */
 puts(Cstr);
 /*
-*writing the string to stdout 
+*writing the string to stdout
 */
 return (0);
 }
