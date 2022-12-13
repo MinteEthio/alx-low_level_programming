@@ -1,3 +1,4 @@
+#include <stdlib>
 #include <stdio.h>
 #include <time.h>
 /* betty style doc for function main goes there */
@@ -10,7 +11,7 @@ int main(void)
 {
 int n;
 
-strand(time(0));
+srand(time(0));
 n = rand() - RAND_MAX / 2;
 /*your code gose here */
 if (n == 0)
