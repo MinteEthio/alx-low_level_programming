@@ -5,12 +5,13 @@
 *
 * Return: Always 0
 */
-int main (void) 
+int main(void) 
 {
 	char c;
 	int i;
 	long int li;
 	float f;
+	
 	printf("Size of a char:%lu bytes \n",(unsigned long)sizeof(c));
 	printf("Size of an int:%lu bytes \n",(unsigned long)sizeof(i));
 	printf("Size of a long int:%lu bytes \n",(unsigned long)sizeof(li));
