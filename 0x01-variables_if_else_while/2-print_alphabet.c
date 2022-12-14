@@ -9,7 +9,9 @@ int void(0)
 int chr;
 clrscr();
 for (chr = 'a'; chr < = 'z' ; chr++)
-printf(chr \n);
+{
+putchar (chr \n);
+}
 return (0);
 }
 
