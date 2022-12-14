@@ -13,6 +13,7 @@ for (c = 'A'; c <= 'Z' ; c++)
 putchar (c);
 }
 }
+{
 char chr;
 for (chr = 'a'; chr <= 'z' ; chr++)
 {
@@ -20,6 +21,7 @@ putchar (chr);
 }
 {
 putchar ('\n');
+}
 }
 return (0);
 }
