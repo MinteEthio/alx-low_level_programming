@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-{
 char Capital_chr;
-for (Capital_chr = 'A'; Capital_chr <= 'Z' ; Capital_chr++)
+{
+for (Capital_chr = 'A'; Capital_chr <= 'Z' ; Capital_chr++);
 }
 {
 putchar (Capital_chr);
