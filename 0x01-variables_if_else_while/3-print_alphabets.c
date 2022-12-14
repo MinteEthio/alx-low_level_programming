@@ -6,17 +6,13 @@
 */
 int main(void)
 {
-char Capital_chr;
 {
-for (Capital_chr = 'A'; Capital_chr <= 'Z' ; Capital_chr++);
-}
+char c;
+for (c = 'A'; c <= 'Z' ; c++)
 {
-putchar (Capital_chr);
+putchar (c);
 }
-{
-putchar ('\n');
 }
-
 char chr;
 for (chr = 'a'; chr <= 'z' ; chr++)
 {
