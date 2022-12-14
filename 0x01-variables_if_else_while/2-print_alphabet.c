@@ -7,7 +7,6 @@
 int main(void)
 {
 int chr;
-clrscr();
 for (chr = 'a'; chr < = 'z' ; chr++)
 {
 putchar (chr \n);
