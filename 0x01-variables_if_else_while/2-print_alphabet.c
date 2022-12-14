@@ -4,7 +4,7 @@
 *
 *Return: Always 0 (Success)
 */
-int void(0)
+int main(void)
 {
 int chr;
 clrscr();
