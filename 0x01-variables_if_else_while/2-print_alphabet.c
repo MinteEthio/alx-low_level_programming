@@ -7,9 +7,9 @@
 int main(void)
 {
 char chr;
-for (chr = 'a'; chr < = 'z' ; chr++)
+for (chr = 'a'; chr <= 'z' ; chr++)
 {
-putchar (chr \n);
+putchar (chr\n);
 }
 return (0);
 }
