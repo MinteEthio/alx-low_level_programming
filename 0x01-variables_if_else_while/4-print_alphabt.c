@@ -9,14 +9,14 @@ int main()
 
 int main(void)
 {
-char ch = 'a';
-while (ch <= 'z')
+char c ='a';
+while (c <= 'z')
 {
-if (ch != 'e' && ch != 'q' )
+if (c != 'e' && c != 'q')
 {
-putchar(ch);
+putchar(c);
 }
-ch++;
+c++;
 }
 putchar ('\n');
 
