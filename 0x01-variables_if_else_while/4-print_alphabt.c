@@ -9,7 +9,7 @@
 
 int main(void)
 {
-char c ='a';
+char c = 'a';
 while (c <= 'z')
 {
 if (c != 'e' && c != 'q')
@@ -20,5 +20,5 @@ c++;
 }
 putchar ('\n');
 
- return (0);
+return (0);
 }
