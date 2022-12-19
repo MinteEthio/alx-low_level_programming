@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- *main - check the code
+ *print_alphabet - print the alphabet in lower case
  *
- *Return: Always 0.
+ *Description: prints the alphabet in lowercase
  */
+
 void print_alphabet(void)
 {
 char chr;
@@ -13,5 +14,5 @@ for (chr = 'a'; chr <= 'z'; chr++)
 _putchar(chr);
 }
 
- _putchar('\n');
+_putchar('\n');
 }
