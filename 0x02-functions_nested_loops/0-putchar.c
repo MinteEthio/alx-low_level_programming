@@ -1,4 +1,3 @@
-ls
 #include "main.h"
 
 /**
