@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
-*main - print_alphabet_x10 
+*print_alphabet_x10 - print 10x the alphabet in lower case.
 *
 *Description: Write a function that prints 10 times the alphabet, in lowercase
 */
