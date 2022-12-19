@@ -9,8 +9,7 @@
 */
 int main(void)
 {
-_putchar('_' '\n' 'x');
+_putchar('_''\n''x');
 _putchar('\n');
-}
 return (0);
 }
