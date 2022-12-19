@@ -2,11 +2,12 @@
 #include <unistd.h>
 
 /**
- * _isalpha -check character
- *
- *return: 1 if  is a letter
- *@c:character to be cheked
- */
+* _isalpha - check alphabetic character
+*
+* @c: is the letter
+* Descrption: check alphabetic character
+* Return: 1 if is a letter
+*/
 
 int _isalpha(int c)
 {
