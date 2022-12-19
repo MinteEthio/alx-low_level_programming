@@ -13,8 +13,8 @@ for (x = 0; x <= 10; x++)
 {
 for (chr = 'a'; chr <= 'z'; chr++)
 {
--putchar(c);
+_putchar(c);
 }
--putchar('\n');
+_putchar('\n');
 }
 }
