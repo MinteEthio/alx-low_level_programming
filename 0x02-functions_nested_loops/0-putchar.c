@@ -9,7 +9,12 @@
 */
 int main(void)
 {
-_putchar('_''\n''x');
-_putchar('\n');
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
 return (0);
 }
