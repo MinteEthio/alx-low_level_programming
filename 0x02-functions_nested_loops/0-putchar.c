@@ -1,17 +1,14 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
-*main -check code
+* main - Entry point
 *
-*Description: Write a program that prints _putchar, followed by a new line.
+* Description: Write a program that prints _putchar, followed by a new line.
 *
-* Return : Always 0
+* Return : Always 0 (Succes)
 */
-
 int main(void)
 {
-int x;
 for (x = 0; x <= 5; x++)
 {
 _putchar('%');
