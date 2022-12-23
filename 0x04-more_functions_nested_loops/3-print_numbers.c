@@ -2,9 +2,10 @@
 
 /**
  * print_numbers - a function that prints (0 to 9)
- * Description: number from 0 to 9
+ * followed by new line
  */
-void print_number(void)
+
+void print_numbers(void)
 {
 	int i;
 
