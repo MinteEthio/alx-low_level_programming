@@ -1,17 +1,28 @@
 #include "main.h"
 
 /**
- * print_line - check description
- * Description: draws a stright line in the terminal
- * @n:input
- * Return:0
+ * more_numbers - print 10 times from 0 to 14
+ * followed by a new line
+ * Return: 0
  */
 
-void print_line(int n)
+void more_numbers(void)
 {
-	while (n-- > 0)
+int a;
+int b;
+
+for (b = 0; b < 10; b++)
+{
+	a = 0;
+	while (a <= 14)
 	{
-	_putchar('_');
+		if (a >= 10)
+		{
+			_putchar(a / 10 + '0');
+		}
+		_putchar(a % 10 + '0');
+		a++;
+	}
+	_putchar('\n');
 }
-_putchar('\n');
 }
