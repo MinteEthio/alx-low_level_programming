@@ -1,8 +1,7 @@
 #include "main.h"
-#include <unistd>
 
 /**
- * _isdigit - checks description
+ * _isdigit - is a function that checks for a digit (0 to 9)
  * Description: checks for a digit
  * @c:input
  * Return: 1 if c is a digit otherwise 0
